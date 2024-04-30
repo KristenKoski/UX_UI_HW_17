@@ -6,63 +6,47 @@
 .logo{
     width: 23%;
     padding: 1%;
-    vertical-align: top;
+    text-align: center;
 }
 
-nav{
-    width: 72%;
-    font-weight: bold;
-    font-family: 'Warownia', sans-serif;
+nav {
+    width: 73%;
+    padding: 1%;
+    display: inline-block;
+    padding-inline-end: 0%;
 }
 
 ul{
-    list-style: none;
-    width:50%;
+    width: 50%;
     margin-left: auto;
-    display: flex;
-    justify-content: center;
 }
 
 .heroImg{
-    height: 600px;
-    padding: 25px;
-    justify-content: right;
-
+height: 600px;
+padding: 25px;
 }
 
 .content{
     width: 500px;
     margin: 0 auto;
-    text-align: left;
 }
 
 footer{
-    background-color: #D3D9D4;
+    background-color: #373738;
+    color: white;
+    padding-inline-start: 30%;
 }
 
-ul li{
- display: list-item;
- padding: 5px 10px;
+li{
+    padding-inline-start: 10%;
 }
-
 footer ul{
     display: inline-block;
     vertical-align: top;
-    text-align: right;
+    padding-inline-start: 5%;
 }
 
-p1 {
-text-align: left;
-}
 
-p2{
-    text-align: right;
-}
 
-header{
-    background-color: #D3D9D4;
-    
-}
-h{
-    text-align: right;
-}
+
+
